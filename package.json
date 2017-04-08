@@ -1,0 +1,32 @@
+{
+  "name": "simplicity-backend",
+  "version": "1.0.0",
+  "description": "Backend services for Simplicity",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "simplicity"
+  ],
+  "author": "Shoun Ichida <shoun@ichida.fr>",
+  "license": "ISC",
+  "devDependencies": {
+    "del": "^2.2.2",
+    "fs-extra": "^2.1.2",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-live-server": "0.0.30",
+    "gulp-sourcemaps": "^2.5.0",
+    "gulp-typescript": "^3.1.6",
+    "typescript": "^2.2.2"
+  },
+  "dependencies": {
+    "dirname": "^0.1.0",
+    "express": "^4.15.2",
+    "path": "^0.12.7",
+    "vue": "^2.2.6",
+    "vue-class-component": "^5.0.1",
+    "vue-server-renderer": "^2.2.6"
+  }
+}
