@@ -2,7 +2,8 @@ import * as express from 'express';
 import * as path from 'path';
 import * as VueRender from 'vue-server-renderer';
 import * as fs from 'fs-extra';
-import app from './assets/app';
+import app from './assets/App';
+
 declare var __dirname;
 
 // Get the HTML layout
@@ -27,6 +28,7 @@ server.get('*', function (request, response) {
         app(),
         // Handle the rendered result
         function (error, html) {
+            console.log(html);
             // If an error occurred while rendering...
             if (error) {
                 // Log the error in the console
